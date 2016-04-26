@@ -32,6 +32,19 @@
     [super didDeactivate];
 }
 
+- (IBAction)ItemPressed {
+    
+    NSLog(@"my 1-st Item was pressed");
+    
+}
+
+- (IBAction)item2Pressed {
+        NSLog(@"my 2-nd Item was pressed");
+}
+
+- (IBAction)item3pressed {
+        NSLog(@"my 3-rd Item was pressed");
+}
 @end
 
 

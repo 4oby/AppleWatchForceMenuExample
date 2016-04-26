@@ -10,5 +10,8 @@
 #import <Foundation/Foundation.h>
 
 @interface InterfaceController : WKInterfaceController
+- (IBAction)ItemPressed;
+- (IBAction)item2Pressed;
+- (IBAction)item3pressed;
 
 @end
